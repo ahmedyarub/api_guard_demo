@@ -1,2 +1,2 @@
-# api_guard_demo
+# API Guard Demo Binaries
 Binaries for API Guard demos
