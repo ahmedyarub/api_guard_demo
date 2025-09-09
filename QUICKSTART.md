@@ -59,7 +59,7 @@ Create and query CodeQL databases, or work with the QL language.
 5- Create the CodeQL analysis database
 ```
 > cd distributed-app/microservices/caller
-> codeql database analyze .../codeql-dbs/caller --format=sarif-latest --output="...distributed-app/microservices/caller/codeql_result.sarif" --rerun --threads=0 java-lgtm-full --no-sarif-minify --sarif-add-snippets
+> codeql database create --language=java-kotlin .../codeql-dbs/caller
 .
 .
 .
@@ -69,7 +69,7 @@ Successfully created database at .../codeql-dbs/caller
 ```
 ```
 > cd distributed-app/microservices/responder
-> codeql database analyze .../codeql-dbs/responder --format=sarif-latest --output="...distributed-app/microservices/responder/codeql_result.sarif" --rerun --threads=0 java-lgtm-full --no-sarif-minify --sarif-add-snippets
+> codeql database create --language=java-kotlin .../codeql-dbs/responder
 .
 .
 .
