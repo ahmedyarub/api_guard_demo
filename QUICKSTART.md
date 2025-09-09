@@ -79,6 +79,7 @@ Successfully created database at .../codeql-dbs/responder.
 ```
 6- Analyze the created databases
 ```
+> cd distributed-app/microservices/caller
 > codeql database analyze .../codeql-dbs/caller --format=sarif-latest --output="...distributed-app/microservices/caller/codeql_result.sarif" java-lgtm-full --no-sarif-minify --sarif-add-snippets
 .
 .
@@ -87,6 +88,7 @@ Shutting down query evaluator.
 Interpreting results.
 ```
 ```
+> cd distributed-app/microservices/responder
 > codeql database analyze .../codeql-dbs/responder --format=sarif-latest --output="...distributed-app/microservices/responder/codeql_result.sarif" java-lgtm-full --no-sarif-minify --sarif-add-snippets
 .
 .
