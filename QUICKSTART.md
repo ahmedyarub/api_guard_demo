@@ -3,7 +3,7 @@
 
 ### Prerequisites:
 - [JDK 21](https://github.com/corretto/corretto-21/releases)
-- [Maven 3.9](https://github.com/apache/maven/releases)
+- [Maven 3.9](https://maven.apache.org/download.cgi)
 - [JavaFX 21.0.8+ (SDK)](https://gluonhq.com/products/javafx/)
 - [CodeQL bundle](https://github.com/github/codeql-action/releases/)
 - [Visual Studio Code](https://code.visualstudio.com/Download) with [CodeQL extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-codeql)
