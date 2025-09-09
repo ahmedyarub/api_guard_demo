@@ -109,6 +109,7 @@ It does not propagate the detected vulnerability to the consumer caller-service
 9- Open the `distributed-app` folder and click on Analyze!. Notice how it builds the cross-service dependency graph.
 ![dependecy_graph.png](images/dependecy_graph.png)
 The dependency analyzer of API Guard detects the inter-service dependencies.
+
 10- Now redo the static analysis using API Guard
 ```
 .\api_guard.exe --projects_path .../distributed-app/microservices --dbs_path .../codeql-dbs --javafx_path .../javafx-sdk-21.0.8
