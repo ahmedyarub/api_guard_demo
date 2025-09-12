@@ -1,5 +1,6 @@
 # Quick Start Instructions
 ## Testing using demo application
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MFZpkyvSoWs/0.jpg)](https://www.youtube.com/watch?v=MFZpkyvSoWs)
 
 ### Prerequisites:
 - [JDK 21](https://github.com/corretto/corretto-21/releases)
